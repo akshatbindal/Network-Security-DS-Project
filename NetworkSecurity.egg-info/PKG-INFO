@@ -8,3 +8,10 @@ Requires-Dist: pandas
 Requires-Dist: numpy
 Requires-Dist: pymongo
 Requires-Dist: certifi
+Requires-Dist: scikit-learn
+Requires-Dist: mlflow
+Requires-Dist: pyaml
+Requires-Dist: dagshub
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: python-multipart

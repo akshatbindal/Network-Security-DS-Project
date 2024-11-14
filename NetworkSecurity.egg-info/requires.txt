@@ -3,3 +3,10 @@ pandas
 numpy
 pymongo
 certifi
+scikit-learn
+mlflow
+pyaml
+dagshub
+fastapi
+uvicorn
+python-multipart

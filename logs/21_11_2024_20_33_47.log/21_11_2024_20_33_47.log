@@ -1,0 +1,27 @@
+[ 2024-11-21 20:33:49,717 ] 18 root - INFO - Initiate the data ingestion
+[ 2024-11-21 20:33:54,086 ] 65 root - INFO - Performed train test split on the dataframe
+[ 2024-11-21 20:33:54,086 ] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2024-11-21 20:33:54,097 ] 75 root - INFO - Exporting train and test file path.
+[ 2024-11-21 20:33:54,145 ] 84 root - INFO - Exported train and test file path.
+[ 2024-11-21 20:33:54,146 ] 20 root - INFO - Data Initiation Completed
+[ 2024-11-21 20:33:54,152 ] 25 root - INFO - Initiate the data Validation
+[ 2024-11-21 20:33:54,213 ] 32 root - INFO - Required number of columns:2
+[ 2024-11-21 20:33:54,213 ] 33 root - INFO - Data frame has columns:31
+[ 2024-11-21 20:33:54,214 ] 32 root - INFO - Required number of columns:2
+[ 2024-11-21 20:33:54,214 ] 33 root - INFO - Data frame has columns:31
+[ 2024-11-21 20:33:54,332 ] 27 root - INFO - data Validation Completed
+[ 2024-11-21 20:33:54,333 ] 31 root - INFO - data Transformation started
+[ 2024-11-21 20:33:54,333 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2024-11-21 20:33:54,334 ] 65 root - INFO - Starting data transformation
+[ 2024-11-21 20:33:54,354 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2024-11-21 20:33:54,354 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-21 20:33:54,368 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-11-21 20:33:54,372 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-11-21 20:33:54,372 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-11-21 20:33:54,375 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-11-21 20:33:54,377 ] 35 root - INFO - data Transformation completed
+[ 2024-11-21 20:33:54,377 ] 38 root - INFO - Model Training stared
+[ 2024-11-21 20:33:54,400 ] 13 root - INFO - Error occured in python script name [D:\MLOps\Network_Security_project\networksecurity\components\model_trainer.py] line number [114] error message [evaluate_models() got an unexpected keyword argument 'x_train']
+[ 2024-11-21 20:33:54,403 ] 13 root - INFO - Error occured in python script name [D:\MLOps\Network_Security_project\networksecurity\components\model_trainer.py] line number [114] error message [evaluate_models() got an unexpected keyword argument 'x_train']
+[ 2024-11-21 20:33:54,403 ] 13 root - INFO - Error occured in python script name [D:\MLOps\Network_Security_project\main.py] line number [40] error message [Error occured in python script name [D:\MLOps\Network_Security_project\networksecurity\components\model_trainer.py] line number [114] error message [evaluate_models() got an unexpected keyword argument 'x_train']]
+[ 2024-11-21 20:33:54,403 ] 13 root - INFO - Error occured in python script name [D:\MLOps\Network_Security_project\networksecurity\components\model_trainer.py] line number [114] error message [evaluate_models() got an unexpected keyword argument 'x_train']
